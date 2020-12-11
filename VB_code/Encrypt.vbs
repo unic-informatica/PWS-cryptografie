@@ -1,7 +1,7 @@
 'Als eerst moet er een plek komen waar de tekst die gecodeerd moet worden, ingevuld kan worden. Deze tekst wordt mySecret genoemd.
 set x = Wscript.CreateObject("Wscript.Shell")
 mySecret = inputbox("enter text to be encoded")
-'Om het lastiger te maken de tekst te oncijferen wordt de tekst eerst omgedraaid voordat het wordt gecodeerd.
+'Om het lastiger te maken de tekst te ontcijferen wordt de tekst eerst omgedraaid voordat het wordt gecodeerd.
 MySectret = strReverse(mySecret)
 'Om te kunnen weten wat de gecodeerde tekst is wordt er een nieuw tabblad geopend met de gecordeerde tekst.
 x.Run "%windir%\notepad"
